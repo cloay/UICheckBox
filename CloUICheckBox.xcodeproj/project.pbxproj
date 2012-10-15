@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA3B0884162C44CA00F0AA1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B0883162C44CA00F0AA1A /* UIKit.framework */; };
+		DA3B0886162C44CA00F0AA1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B0885162C44CA00F0AA1A /* Foundation.framework */; };
+		DA3B0888162C44CA00F0AA1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B0887162C44CA00F0AA1A /* CoreGraphics.framework */; };
+		DA3B088E162C44CA00F0AA1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA3B088C162C44CA00F0AA1A /* InfoPlist.strings */; };
+		DA3B0890162C44CA00F0AA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B088F162C44CA00F0AA1A /* main.m */; };
+		DA3B0894162C44CA00F0AA1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B0893162C44CA00F0AA1A /* AppDelegate.m */; };
+		DA3B0896162C44CA00F0AA1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B0895162C44CA00F0AA1A /* Default.png */; };
+		DA3B0898162C44CA00F0AA1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B0897162C44CA00F0AA1A /* Default@2x.png */; };
+		DA3B089A162C44CA00F0AA1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B0899162C44CA00F0AA1A /* Default-568h@2x.png */; };
+		DA3B089D162C44CA00F0AA1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B089C162C44CA00F0AA1A /* ViewController.m */; };
+		DA3B08A0162C44CA00F0AA1A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3B089E162C44CA00F0AA1A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA3B087F162C44CA00F0AA1A /* CloUICheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloUICheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3B0883162C44CA00F0AA1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA3B0885162C44CA00F0AA1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA3B0887162C44CA00F0AA1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA3B088B162C44CA00F0AA1A /* CloUICheckBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloUICheckBox-Info.plist"; sourceTree = "<group>"; };
+		DA3B088D162C44CA00F0AA1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA3B088F162C44CA00F0AA1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA3B0891162C44CA00F0AA1A /* CloUICheckBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloUICheckBox-Prefix.pch"; sourceTree = "<group>"; };
+		DA3B0892162C44CA00F0AA1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA3B0893162C44CA00F0AA1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA3B0895162C44CA00F0AA1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA3B0897162C44CA00F0AA1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA3B0899162C44CA00F0AA1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA3B089B162C44CA00F0AA1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA3B089C162C44CA00F0AA1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA3B089F162C44CA00F0AA1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3B087C162C44CA00F0AA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3B0884162C44CA00F0AA1A /* UIKit.framework in Frameworks */,
+				DA3B0886162C44CA00F0AA1A /* Foundation.framework in Frameworks */,
+				DA3B0888162C44CA00F0AA1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA3B0874162C44CA00F0AA1A = {
+			isa = PBXGroup;
+			children = (
+				DA3B0889162C44CA00F0AA1A /* CloUICheckBox */,
+				DA3B0882162C44CA00F0AA1A /* Frameworks */,
+				DA3B0880162C44CA00F0AA1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3B0880162C44CA00F0AA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B087F162C44CA00F0AA1A /* CloUICheckBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3B0882162C44CA00F0AA1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B0883162C44CA00F0AA1A /* UIKit.framework */,
+				DA3B0885162C44CA00F0AA1A /* Foundation.framework */,
+				DA3B0887162C44CA00F0AA1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA3B0889162C44CA00F0AA1A /* CloUICheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B0892162C44CA00F0AA1A /* AppDelegate.h */,
+				DA3B0893162C44CA00F0AA1A /* AppDelegate.m */,
+				DA3B089B162C44CA00F0AA1A /* ViewController.h */,
+				DA3B089C162C44CA00F0AA1A /* ViewController.m */,
+				DA3B089E162C44CA00F0AA1A /* ViewController.xib */,
+				DA3B088A162C44CA00F0AA1A /* Supporting Files */,
+			);
+			path = CloUICheckBox;
+			sourceTree = "<group>";
+		};
+		DA3B088A162C44CA00F0AA1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B088B162C44CA00F0AA1A /* CloUICheckBox-Info.plist */,
+				DA3B088C162C44CA00F0AA1A /* InfoPlist.strings */,
+				DA3B088F162C44CA00F0AA1A /* main.m */,
+				DA3B0891162C44CA00F0AA1A /* CloUICheckBox-Prefix.pch */,
+				DA3B0895162C44CA00F0AA1A /* Default.png */,
+				DA3B0897162C44CA00F0AA1A /* Default@2x.png */,
+				DA3B0899162C44CA00F0AA1A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3B087E162C44CA00F0AA1A /* CloUICheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3B08A3162C44CA00F0AA1A /* Build configuration list for PBXNativeTarget "CloUICheckBox" */;
+			buildPhases = (
+				DA3B087B162C44CA00F0AA1A /* Sources */,
+				DA3B087C162C44CA00F0AA1A /* Frameworks */,
+				DA3B087D162C44CA00F0AA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloUICheckBox;
+			productName = CloUICheckBox;
+			productReference = DA3B087F162C44CA00F0AA1A /* CloUICheckBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3B0876162C44CA00F0AA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = cloay;
+			};
+			buildConfigurationList = DA3B0879162C44CA00F0AA1A /* Build configuration list for PBXProject "CloUICheckBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA3B0874162C44CA00F0AA1A;
+			productRefGroup = DA3B0880162C44CA00F0AA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3B087E162C44CA00F0AA1A /* CloUICheckBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3B087D162C44CA00F0AA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3B088E162C44CA00F0AA1A /* InfoPlist.strings in Resources */,
+				DA3B0896162C44CA00F0AA1A /* Default.png in Resources */,
+				DA3B0898162C44CA00F0AA1A /* Default@2x.png in Resources */,
+				DA3B089A162C44CA00F0AA1A /* Default-568h@2x.png in Resources */,
+				DA3B08A0162C44CA00F0AA1A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3B087B162C44CA00F0AA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3B0890162C44CA00F0AA1A /* main.m in Sources */,
+				DA3B0894162C44CA00F0AA1A /* AppDelegate.m in Sources */,
+				DA3B089D162C44CA00F0AA1A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA3B088C162C44CA00F0AA1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3B088D162C44CA00F0AA1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA3B089E162C44CA00F0AA1A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3B089F162C44CA00F0AA1A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA3B08A1162C44CA00F0AA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA3B08A2162C44CA00F0AA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3B08A4162C44CA00F0AA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloUICheckBox/CloUICheckBox-Prefix.pch";
+				INFOPLIST_FILE = "CloUICheckBox/CloUICheckBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA3B08A5162C44CA00F0AA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloUICheckBox/CloUICheckBox-Prefix.pch";
+				INFOPLIST_FILE = "CloUICheckBox/CloUICheckBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3B0879162C44CA00F0AA1A /* Build configuration list for PBXProject "CloUICheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3B08A1162C44CA00F0AA1A /* Debug */,
+				DA3B08A2162C44CA00F0AA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3B08A3162C44CA00F0AA1A /* Build configuration list for PBXNativeTarget "CloUICheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3B08A4162C44CA00F0AA1A /* Debug */,
+				DA3B08A5162C44CA00F0AA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3B0876162C44CA00F0AA1A /* Project object */;
+}
