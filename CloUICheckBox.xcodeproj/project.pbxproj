@@ -18,6 +18,11 @@
 		DA3B089A162C44CA00F0AA1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B0899162C44CA00F0AA1A /* Default-568h@2x.png */; };
 		DA3B089D162C44CA00F0AA1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B089C162C44CA00F0AA1A /* ViewController.m */; };
 		DA3B08A0162C44CA00F0AA1A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3B089E162C44CA00F0AA1A /* ViewController.xib */; };
+		DA3B08AE162C452C00F0AA1A /* box_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B08AA162C452B00F0AA1A /* box_selected.png */; };
+		DA3B08AF162C452C00F0AA1A /* box_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B08AB162C452C00F0AA1A /* box_selected@2x.png */; };
+		DA3B08B0162C452C00F0AA1A /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B08AC162C452C00F0AA1A /* box.png */; };
+		DA3B08B1162C452C00F0AA1A /* box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B08AD162C452C00F0AA1A /* box@2x.png */; };
+		DA3B08B5162C459100F0AA1A /* UICheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B08B4162C459100F0AA1A /* UICheckBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		DA3B089B162C44CA00F0AA1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DA3B089C162C44CA00F0AA1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA3B089F162C44CA00F0AA1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DA3B08AA162C452B00F0AA1A /* box_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_selected.png; sourceTree = "<group>"; };
+		DA3B08AB162C452C00F0AA1A /* box_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box_selected@2x.png"; sourceTree = "<group>"; };
+		DA3B08AC162C452C00F0AA1A /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		DA3B08AD162C452C00F0AA1A /* box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box@2x.png"; sourceTree = "<group>"; };
+		DA3B08B3162C459100F0AA1A /* UICheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICheckBox.h; sourceTree = "<group>"; };
+		DA3B08B4162C459100F0AA1A /* UICheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICheckBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,7 @@
 		DA3B0889162C44CA00F0AA1A /* CloUICheckBox */ = {
 			isa = PBXGroup;
 			children = (
+				DA3B08A6162C44D300F0AA1A /* UICheckBox */,
 				DA3B0892162C44CA00F0AA1A /* AppDelegate.h */,
 				DA3B0893162C44CA00F0AA1A /* AppDelegate.m */,
 				DA3B089B162C44CA00F0AA1A /* ViewController.h */,
@@ -105,6 +117,27 @@
 				DA3B0899162C44CA00F0AA1A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA3B08A6162C44D300F0AA1A /* UICheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B08B2162C453100F0AA1A /* images */,
+				DA3B08B3162C459100F0AA1A /* UICheckBox.h */,
+				DA3B08B4162C459100F0AA1A /* UICheckBox.m */,
+			);
+			name = UICheckBox;
+			sourceTree = "<group>";
+		};
+		DA3B08B2162C453100F0AA1A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B08AA162C452B00F0AA1A /* box_selected.png */,
+				DA3B08AB162C452C00F0AA1A /* box_selected@2x.png */,
+				DA3B08AC162C452C00F0AA1A /* box.png */,
+				DA3B08AD162C452C00F0AA1A /* box@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +196,10 @@
 				DA3B0898162C44CA00F0AA1A /* Default@2x.png in Resources */,
 				DA3B089A162C44CA00F0AA1A /* Default-568h@2x.png in Resources */,
 				DA3B08A0162C44CA00F0AA1A /* ViewController.xib in Resources */,
+				DA3B08AE162C452C00F0AA1A /* box_selected.png in Resources */,
+				DA3B08AF162C452C00F0AA1A /* box_selected@2x.png in Resources */,
+				DA3B08B0162C452C00F0AA1A /* box.png in Resources */,
+				DA3B08B1162C452C00F0AA1A /* box@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +213,7 @@
 				DA3B0890162C44CA00F0AA1A /* main.m in Sources */,
 				DA3B0894162C44CA00F0AA1A /* AppDelegate.m in Sources */,
 				DA3B089D162C44CA00F0AA1A /* ViewController.m in Sources */,
+				DA3B08B5162C459100F0AA1A /* UICheckBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
